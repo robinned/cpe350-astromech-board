@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "astromech_symbols")(type "KiCad")(uri "${KIPRJMOD}/astromech_main_board-backups/astromech_symbols.kicad_sym")(options "")(descr ""))
+)

@@ -5,6 +5,196 @@
 	(uuid "3ed70c37-1dc6-4761-9813-fca49ce12494")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 172.72 121.92)
+		(size 34.29 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "179c8d1a-ee18-4913-a220-ee7b41201961")
+		(property "Sheetname" "io_protection"
+			(at 172.72 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_protection.kicad_sch"
+			(at 172.72 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 128.27)
+		(size 39.37 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ad7c4a2-df2b-4efe-987c-b41c89a114c2")
+		(property "Sheetname" "io_expander"
+			(at 115.57 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_expander.kicad_sch"
+			(at 115.57 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 109.22)
+		(size 35.56 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f719663-2ad3-49a1-9252-2127ec752624")
+		(property "Sheetname" "power_protection"
+			(at 45.72 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_protection.kicad_sch"
+			(at 45.72 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 66.04)
+		(size 34.29 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dcd705a8-d3f6-4ba0-a933-c0adcd8c1729")
+		(property "Sheetname" "ESP32"
+			(at 125.73 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 125.73 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 55.88)
+		(size 30.48 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc1b95e7-5ecb-46c9-93b8-1b5e62b6c335")
+		(property "Sheetname" "voltage_monitoring"
+			(at 45.72 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage_monitoring.kicad_sch"
+			(at 45.72 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

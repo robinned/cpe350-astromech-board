@@ -5,4 +5,48 @@
 	(uuid "472bed67-50b7-4f45-8622-f3324647bdef")
 	(paper "A4")
 	(lib_symbols)
+	(global_label "in1"
+		(shape input)
+		(at 12.7 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "630f53e9-306d-470a-b421-c948c7e31662")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.6485 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO"
+		(shape input)
+		(at 275.59 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a15635d3-9f58-4328-8ff0-9684023b6a52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.0505 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 )

@@ -578,6 +578,26 @@
     [
       "3ed70c37-1dc6-4761-9813-fca49ce12494",
       "Root"
+    ],
+    [
+      "dcd705a8-d3f6-4ba0-a933-c0adcd8c1729",
+      "ESP32"
+    ],
+    [
+      "fc1b95e7-5ecb-46c9-93b8-1b5e62b6c335",
+      "voltage_monitoring"
+    ],
+    [
+      "6f719663-2ad3-49a1-9252-2127ec752624",
+      "power_protection"
+    ],
+    [
+      "6ad7c4a2-df2b-4efe-987c-b41c89a114c2",
+      "io_expander"
+    ],
+    [
+      "179c8d1a-ee18-4913-a220-ee7b41201961",
+      "io_protection"
     ]
   ],
   "text_variables": {}

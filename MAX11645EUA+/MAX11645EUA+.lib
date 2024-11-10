@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MAX11645EUA+
+#/260842/1530575/2.50/8/3/Integrated Circuit
+DEF MAX11645EUA+ IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MAX11645EUA+" 950 200 50 H V L CNN
+F2 "SOP65P490X111-8N" 950 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA17/1031853.pdf" 950 0 50 H I L CNN
+F4 "IC,ADC,MAX11645EUA+ MAX11645EUA+, 12 bit ADC Differential, Serial, 8-Pin uMAX" 950 -100 50 H I L CNN "Description"
+F5 "1.11" 950 -200 50 H I L CNN "Height"
+F6 "700-MAX11645EUA+" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX11645EUA%2b?qs=Bakm8ERcljromEtBj8vNxg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MAX11645EUA+" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X AIN0 1 0 0 200 R 50 50 0 0 P
+X AIN1 2 0 -100 200 R 50 50 0 0 P
+X N.C. 3 0 -200 200 R 50 50 0 0 N
+X REF 4 0 -300 200 R 50 50 0 0 P
+X VDD 8 1100 0 200 L 50 50 0 0 P
+X GND 7 1100 -100 200 L 50 50 0 0 P
+X SDA 6 1100 -200 200 L 50 50 0 0 P
+X SCL 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 191.77 71.12)
+		(size 33.02 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0fc5068a-7439-495a-a909-443011c0fe39")
+		(property "Sheetname" "hw_encoder"
+			(at 191.77 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hw_encoder.kicad_sch"
+			(at 191.77 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 172.72 121.92)
 		(size 34.29 27.94)
 		(fields_autoplaced yes)

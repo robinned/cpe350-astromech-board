@@ -648,6 +648,10 @@
     [
       "179c8d1a-ee18-4913-a220-ee7b41201961",
       "io_protection"
+    ],
+    [
+      "0fc5068a-7439-495a-a909-443011c0fe39",
+      "hw_encoder"
     ]
   ],
   "text_variables": {}

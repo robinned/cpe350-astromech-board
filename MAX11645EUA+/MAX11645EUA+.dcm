@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX11645EUA+
+D IC,ADC,MAX11645EUA+ MAX11645EUA+, 12 bit ADC Differential, Serial, 8-Pin uMAX
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA17/1031853.pdf
+$ENDCMP
+#
+#End Doc Library

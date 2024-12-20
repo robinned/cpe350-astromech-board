@@ -1827,7 +1827,6 @@
 		)
 		(pin "1"
 			(uuid "109fc2a5-f0c3-4c42-b788-6646d98d7c8d")
-
 		)
 		(instances
 			(project "astromech_main_board"
@@ -1971,7 +1970,6 @@
 		)
 		(pin "1"
 			(uuid "3247d649-12e9-41cb-9a1d-1981f3790b93")
-
 		)
 		(instances
 			(project "astromech_main_board"
@@ -2038,7 +2036,6 @@
 		)
 		(pin "1"
 			(uuid "e87a36b0-5367-4b6a-83d4-470923b8b2aa")
-
 		)
 		(instances
 			(project "astromech_main_board"

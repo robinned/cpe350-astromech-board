@@ -827,7 +827,6 @@
 		)
 		(pin "2"
 			(uuid "43ae8825-ef5b-4754-a100-f43446eb1020")
-
 		)
 		(instances
 			(project ""
@@ -893,7 +892,6 @@
 				(hide yes)
 			)
 		)
-
 		(property "Height" "1.11"
 			(at 162.56 467.31 0)
 			(effects
@@ -945,7 +943,6 @@
 			)
 		)
 		(pin "1"
-
 			(uuid "28c2a826-6356-4479-8e95-6c957d78518b")
 		)
 		(pin "4"
@@ -968,7 +965,6 @@
 		)
 		(pin "7"
 			(uuid "f9259fe2-42da-4415-9fb5-aba890c06256")
-
 		)
 		(instances
 			(project ""
@@ -1035,7 +1031,6 @@
 			)
 		)
 		(pin "1"
-
 			(uuid "03c4b6ae-6400-42ed-813d-931bf38d30a5")
 		)
 		(pin "2"
@@ -1051,4 +1046,3 @@
 		)
 	)
 )
-

@@ -602,6 +602,377 @@
 				)
 			)
 		)
+		(symbol "Interface_Expansion:TCA9554DW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TCA9554DW"
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+				(at 24.13 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9554.pdf"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8 Bit Port/Expander, I2C SMBUS, Interrupt output, SOIC-16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMBUS I2C Expander"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCA9554DW_0_1"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCA9554DW_1_1"
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0) hide)
@@ -1634,6 +2005,150 @@
 		(at 66.04 87.63)
 		(uuid "f88884e2-76a9-4cc1-b653-446abd59aceb")
 	)
+	(bus_entry
+		(at 57.15 142.24)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0166e97d-4542-47a1-8417-5b57c702fb28")
+	)
+	(bus_entry
+		(at 57.15 124.46)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8bb30c-afaa-4918-8f6b-86c0e3062c4e")
+	)
+	(bus_entry
+		(at 57.15 189.23)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115c5ced-c578-4035-92f9-207406a3dc5a")
+	)
+	(bus_entry
+		(at 57.15 173.99)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3ec753-f268-4fff-8163-15867560b3fd")
+	)
+	(bus_entry
+		(at 57.15 139.7)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c15eec-6b6e-41ae-98cb-45af31a99014")
+	)
+	(bus_entry
+		(at 57.15 184.15)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309c5684-487e-4e26-b898-753158ac7c5f")
+	)
+	(bus_entry
+		(at 57.15 132.08)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37359ccc-cc9e-41a1-a49c-e8469d91e463")
+	)
+	(bus_entry
+		(at 57.15 137.16)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e168a5-5a56-46b7-8bf5-d6c723c329bb")
+	)
+	(bus_entry
+		(at 57.15 186.69)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d686da-40e4-43f7-9af3-f9ef8ff004d6")
+	)
+	(bus_entry
+		(at 57.15 171.45)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f348e8-8583-4a4e-bb6c-0d947cdbffb1")
+	)
+	(bus_entry
+		(at 57.15 179.07)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f9684a-9688-4f5b-b323-d2f3d935ccf8")
+	)
+	(bus_entry
+		(at 57.15 127)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc201265-c543-458f-8f3a-d282fbf296b9")
+	)
+	(bus_entry
+		(at 57.15 129.54)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce14424f-b5b2-4213-b429-a97a5abcc47b")
+	)
+	(bus_entry
+		(at 57.15 134.62)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b64fc5-c681-4c6b-90db-fb4a4c8e017d")
+	)
+	(bus_entry
+		(at 57.15 176.53)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5d80ae-c5b7-425f-8032-a2d8674c1c85")
+	)
+	(bus_entry
+		(at 57.15 181.61)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc5a123-4aba-426b-80be-d0262621b357")
+	)
 	(wire
 		(pts
 			(xy 95.25 92.71) (xy 95.25 93.98)
@@ -1643,6 +2158,36 @@
 			(type default)
 		)
 		(uuid "013f8b40-012e-4782-8984-b6817514f06a")
+	)
+	(wire
+		(pts
+			(xy 44.45 124.46) (xy 57.15 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02919cc9-83d7-41c9-b5c7-d181b8e1d384")
+	)
+	(wire
+		(pts
+			(xy -19.05 130.81) (xy -19.05 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0402f8c5-0f42-402f-bf9a-7e63156e4c9c")
+	)
+	(wire
+		(pts
+			(xy 44.45 139.7) (xy 57.15 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049bee9e-4194-4c8f-871a-9f211ad2778a")
 	)
 	(wire
 		(pts
@@ -1676,6 +2221,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 176.53) (xy 57.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fda6609-bf76-4f1d-89e2-e31b934c40bd")
+	)
+	(wire
+		(pts
+			(xy 34.29 147.32) (xy 34.29 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ef5e5b-8931-4e20-8fbb-80cf77cfcb02")
+	)
+	(wire
+		(pts
 			(xy 57.15 95.25) (xy 57.15 93.98)
 		)
 		(stroke
@@ -1683,6 +2248,16 @@
 			(type default)
 		)
 		(uuid "15cd9fb0-a175-47d1-a7b4-c81e55f80a1b")
+	)
+	(wire
+		(pts
+			(xy -19.05 166.37) (xy -19.05 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18209f58-0abd-40e8-a623-6ad228ea4fc6")
 	)
 	(wire
 		(pts
@@ -1714,6 +2289,36 @@
 		)
 		(uuid "1c6fa744-fddc-42d8-b868-e1f5945801ad")
 	)
+	(bus
+		(pts
+			(xy 59.69 173.99) (xy 59.69 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236e3e0f-d20b-4d42-9298-53fcae81c5d4")
+	)
+	(wire
+		(pts
+			(xy -5.08 186.69) (xy 24.13 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2599a54d-2d04-4743-bae1-6adb006b1330")
+	)
+	(wire
+		(pts
+			(xy 44.45 142.24) (xy 57.15 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2906cdd0-270c-4800-ba89-dfa2e1adb2f4")
+	)
 	(wire
 		(pts
 			(xy 49.53 20.32) (xy 67.31 20.32)
@@ -1723,6 +2328,16 @@
 			(type default)
 		)
 		(uuid "292a0ed2-ce3b-4168-b4fb-62dc9c376172")
+	)
+	(wire
+		(pts
+			(xy 5.08 172.72) (xy 5.08 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eda9f8a-82f3-4411-adce-2b00e23e31c1")
 	)
 	(wire
 		(pts
@@ -1736,6 +2351,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 186.69) (xy 57.15 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3183016e-596e-4864-82de-b8bd4eaf5c45")
+	)
+	(wire
+		(pts
 			(xy 105.41 21.59) (xy 101.6 21.59)
 		)
 		(stroke
@@ -1746,6 +2371,46 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 127) (xy 57.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3676eff6-28a1-40d7-b88c-803afc7b358b")
+	)
+	(bus
+		(pts
+			(xy 59.69 168.91) (xy 59.69 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae41dcc-7da8-440e-8da2-e4cac2e45577")
+	)
+	(wire
+		(pts
+			(xy -8.89 130.81) (xy -8.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd76a0e-31d6-4a0b-a1ee-9c93901f685d")
+	)
+	(wire
+		(pts
+			(xy 1.27 166.37) (xy 1.27 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2d7b0c-541a-47de-ae8d-b6640e538b43")
+	)
+	(wire
+		(pts
 			(xy 73.66 25.4) (xy 73.66 29.21)
 		)
 		(stroke
@@ -1753,6 +2418,66 @@
 			(type default)
 		)
 		(uuid "40a67b4f-5b21-44d4-baf5-f5f522dc3243")
+	)
+	(bus
+		(pts
+			(xy 59.69 137.16) (xy 59.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4512f926-d88d-42c1-8885-a6fd37fa9a21")
+	)
+	(bus
+		(pts
+			(xy 59.69 132.08) (xy 59.69 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e68b9a-e404-40d2-a2b0-85fddf35f443")
+	)
+	(wire
+		(pts
+			(xy 44.45 189.23) (xy 57.15 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba59e01-98d1-4e83-8093-01acb40ac470")
+	)
+	(wire
+		(pts
+			(xy -8.89 177.8) (xy -8.89 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50dc79b5-fb0d-4e58-9e23-17986ece3511")
+	)
+	(wire
+		(pts
+			(xy 34.29 194.31) (xy 34.29 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512d812f-51a5-4ae0-9768-f679827107b2")
+	)
+	(bus
+		(pts
+			(xy 59.69 176.53) (xy 59.69 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519f5856-afca-4fbd-98d8-363ad25417df")
 	)
 	(wire
 		(pts
@@ -1766,6 +2491,16 @@
 	)
 	(wire
 		(pts
+			(xy 10.16 129.54) (xy 24.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588ea8f9-c9d4-46c4-950a-dfff7e15d6e4")
+	)
+	(wire
+		(pts
 			(xy 73.66 55.88) (xy 73.66 59.69)
 		)
 		(stroke
@@ -1776,6 +2511,66 @@
 	)
 	(wire
 		(pts
+			(xy -5.08 172.72) (xy -5.08 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ee09d9-3120-41f0-bb9b-1b6b12c9d950")
+	)
+	(wire
+		(pts
+			(xy 44.45 184.15) (xy 57.15 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a126b6d-811b-43f7-b115-87205106343e")
+	)
+	(wire
+		(pts
+			(xy 10.16 176.53) (xy 24.13 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9ae206-4a81-499e-bc5e-61c7e38c383e")
+	)
+	(wire
+		(pts
+			(xy 10.16 124.46) (xy 24.13 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc55045-e16f-44fe-a2c4-2e8e1b470ab7")
+	)
+	(wire
+		(pts
+			(xy 44.45 129.54) (xy 57.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d28a8e8-31e4-41ea-90e6-dda4a7a9bf2a")
+	)
+	(wire
+		(pts
+			(xy -15.24 142.24) (xy 24.13 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f139ae9-8051-4133-9379-a7ba4d3efbb6")
+	)
+	(wire
+		(pts
 			(xy 95.25 83.82) (xy 95.25 85.09)
 		)
 		(stroke
@@ -1783,6 +2578,16 @@
 			(type default)
 		)
 		(uuid "60f0b68d-6e0d-4184-a8dd-dcaec53361eb")
+	)
+	(bus
+		(pts
+			(xy 59.69 124.46) (xy 59.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62885e47-c1d5-4aaa-b93a-70f7888d8888")
 	)
 	(wire
 		(pts
@@ -1796,6 +2601,16 @@
 	)
 	(wire
 		(pts
+			(xy 1.27 177.8) (xy 1.27 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652c1bb0-ad2f-4264-a26c-2cf820fca98e")
+	)
+	(wire
+		(pts
 			(xy 101.6 29.21) (xy 95.25 29.21)
 		)
 		(stroke
@@ -1803,6 +2618,26 @@
 			(type default)
 		)
 		(uuid "66026b1f-5bbf-4889-b1ec-d2ede2047b08")
+	)
+	(wire
+		(pts
+			(xy -15.24 189.23) (xy 24.13 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66689d4c-3797-43d2-a846-6d2dba1f85cc")
+	)
+	(wire
+		(pts
+			(xy 44.45 171.45) (xy 57.15 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ddef2c-a1b2-43d6-a64c-13f162f7e487")
 	)
 	(wire
 		(pts
@@ -1814,6 +2649,26 @@
 		)
 		(uuid "6791d6c1-bdce-463d-b6e7-9ff8bb634b69")
 	)
+	(bus
+		(pts
+			(xy 59.69 179.07) (xy 59.69 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8797d3-c498-46f8-8834-0af01fd8fd13")
+	)
+	(bus
+		(pts
+			(xy 59.69 181.61) (xy 59.69 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b86d68f-3de4-4a28-8215-f550896489df")
+	)
 	(wire
 		(pts
 			(xy 57.15 83.82) (xy 57.15 85.09)
@@ -1823,6 +2678,26 @@
 			(type default)
 		)
 		(uuid "6ca5e64b-981a-4ac7-be1b-a9ccadf5015a")
+	)
+	(wire
+		(pts
+			(xy 34.29 165.1) (xy 34.29 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dab47a8-f4b5-4839-9520-7dde8d3aae41")
+	)
+	(wire
+		(pts
+			(xy -15.24 125.73) (xy -15.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebd1fc0-e273-4b6a-a0bd-174a926fff0e")
 	)
 	(wire
 		(pts
@@ -1843,6 +2718,16 @@
 			(type default)
 		)
 		(uuid "72a02e4c-f646-4685-8f87-b248bb27fa48")
+	)
+	(bus
+		(pts
+			(xy 59.69 171.45) (xy 59.69 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e7adc7-2eee-4bf2-afdc-ff6cd058c37f")
 	)
 	(wire
 		(pts
@@ -1866,6 +2751,56 @@
 	)
 	(wire
 		(pts
+			(xy 1.27 130.81) (xy 1.27 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddaee03-58b6-417a-9d47-13dd90a55bcb")
+	)
+	(wire
+		(pts
+			(xy 44.45 137.16) (xy 57.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8232b020-b89e-45f8-b780-1193c7c3b2dd")
+	)
+	(wire
+		(pts
+			(xy 10.16 173.99) (xy 24.13 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8323d917-0f1a-4398-a2cf-26ed67d8ff4b")
+	)
+	(wire
+		(pts
+			(xy 34.29 118.11) (xy 34.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ec117d-5016-48b6-80dd-83ff5911c5c5")
+	)
+	(wire
+		(pts
+			(xy -5.08 139.7) (xy 24.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890b9f7c-6b15-493a-9aeb-3e08b6b6b684")
+	)
+	(wire
+		(pts
 			(xy 67.31 52.07) (xy 67.31 50.8)
 		)
 		(stroke
@@ -1873,6 +2808,76 @@
 			(type default)
 		)
 		(uuid "8b0f1bfc-32e3-4083-8486-7f4640b201d5")
+	)
+	(wire
+		(pts
+			(xy -15.24 172.72) (xy -15.24 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f41516e-6853-4dbc-8cf6-0f3f315f2fdc")
+	)
+	(wire
+		(pts
+			(xy -19.05 119.38) (xy -19.05 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9027fac2-eb85-4786-a44a-5d57ac0d5f42")
+	)
+	(bus
+		(pts
+			(xy 59.69 121.92) (xy 59.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909c482a-e729-4ea0-a076-a3016055cf3b")
+	)
+	(wire
+		(pts
+			(xy -8.89 166.37) (xy -8.89 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c525ba-0683-4219-8774-5964e0ea3331")
+	)
+	(wire
+		(pts
+			(xy 5.08 125.73) (xy 5.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d309837-ac76-4efc-a64f-654b41b198d2")
+	)
+	(bus
+		(pts
+			(xy 59.69 127) (xy 59.69 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e209465-c294-4eb1-bcb8-46147c6923e6")
+	)
+	(bus
+		(pts
+			(xy 59.69 139.7) (xy 59.69 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa2b5ba-8142-413a-bd30-adb1d8330866")
 	)
 	(wire
 		(pts
@@ -1896,6 +2901,56 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 134.62) (xy 57.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d3422e-4b5d-4013-980d-492c8a76c9d6")
+	)
+	(wire
+		(pts
+			(xy 1.27 119.38) (xy 1.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58ac4d6-59ad-4205-9709-c18216549d79")
+	)
+	(wire
+		(pts
+			(xy -19.05 177.8) (xy -19.05 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59ae257-8c65-4739-b02b-6ddea8f732cd")
+	)
+	(bus
+		(pts
+			(xy 59.69 129.54) (xy 59.69 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a623b2b2-d04f-45db-956f-2f5e4e4eadba")
+	)
+	(wire
+		(pts
+			(xy 44.45 179.07) (xy 57.15 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ec3771-a0f3-4f72-9316-a791e1ffd4fc")
+	)
+	(wire
+		(pts
 			(xy 73.66 13.97) (xy 101.6 13.97)
 		)
 		(stroke
@@ -1903,6 +2958,46 @@
 			(type default)
 		)
 		(uuid "b0181cfc-3eab-4905-9b58-6aa0bda6947c")
+	)
+	(wire
+		(pts
+			(xy 44.45 181.61) (xy 57.15 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd59ea4e-9549-4545-bada-0f4fecf9e158")
+	)
+	(wire
+		(pts
+			(xy 44.45 173.99) (xy 57.15 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf627ce8-d468-49bd-aa3e-f18cbaac54ed")
+	)
+	(wire
+		(pts
+			(xy 44.45 132.08) (xy 57.15 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23af4fe-82ca-4202-9ceb-1fd4bcc11f71")
+	)
+	(wire
+		(pts
+			(xy -8.89 119.38) (xy -8.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d72802-14c9-4219-bb39-457a4a1dcf8e")
 	)
 	(wire
 		(pts
@@ -1933,6 +3028,26 @@
 			(type default)
 		)
 		(uuid "d0bc4fb4-4ea1-4886-9703-94d78e72fd8a")
+	)
+	(wire
+		(pts
+			(xy -5.08 125.73) (xy -5.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11e6038-7000-4ff8-9fec-d0d66cd2def5")
+	)
+	(bus
+		(pts
+			(xy 59.69 184.15) (xy 59.69 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d197f2e5-bc20-4e4d-924e-f6e6aeac7af2")
 	)
 	(wire
 		(pts
@@ -1976,6 +3091,26 @@
 	)
 	(wire
 		(pts
+			(xy 5.08 137.16) (xy 24.13 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc202d3e-1ac5-4e7e-ae66-bbedb7b82049")
+	)
+	(wire
+		(pts
+			(xy 5.08 184.15) (xy 24.13 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e090d341-60bf-47a9-a75f-b097d29f4165")
+	)
+	(wire
+		(pts
 			(xy 73.66 45.72) (xy 73.66 44.45)
 		)
 		(stroke
@@ -1983,6 +3118,16 @@
 			(type default)
 		)
 		(uuid "e5e57330-17ee-45bd-8059-41a26b2c3f48")
+	)
+	(wire
+		(pts
+			(xy 10.16 171.45) (xy 24.13 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddec5da-6e7c-4c04-aa65-f1d6aad1f63b")
 	)
 	(wire
 		(pts
@@ -2014,6 +3159,26 @@
 		)
 		(uuid "f8bfa570-7bfc-458b-9662-3e4ce65262be")
 	)
+	(bus
+		(pts
+			(xy 59.69 134.62) (xy 59.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8de33d7-7103-442b-bc9b-b6a93f67a4b8")
+	)
+	(wire
+		(pts
+			(xy 10.16 127) (xy 24.13 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff2aa14-b86d-45e0-97ca-00f318632957")
+	)
 	(text "I2C address ???"
 		(exclude_from_sim no)
 		(at 79.756 97.79 0)
@@ -2023,6 +3188,39 @@
 			)
 		)
 		(uuid "5bfe058f-ea85-42e1-8ea2-c166da82d886")
+	)
+	(label "PO_10"
+		(at 46.99 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00c3afe4-d23b-4751-9caa-7ef86f7063af")
+	)
+	(label "PO_14"
+		(at 46.99 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02734675-9403-4f5d-83fe-b5a407fb5a6a")
+	)
+	(label "I2C_3V3_SCL"
+		(at 10.16 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02cdc0b2-b4ec-4d14-b84f-79be75f9c910")
 	)
 	(label "5V_IN"
 		(at 49.53 50.8 0)
@@ -2035,6 +3233,116 @@
 		)
 		(uuid "17de6800-b8ac-40ca-9f19-3d9b990d81b0")
 	)
+	(label "PO_8"
+		(at 46.99 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ceb9c09-c58b-420c-849d-ca30256ea64a")
+	)
+	(label "I2C_3V3_SDA"
+		(at 10.16 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20fe0bde-4d2e-4505-b4a6-244a978db216")
+	)
+	(label "PO_2"
+		(at 46.99 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2370d198-61a4-498f-8dfe-8409ff1340a3")
+	)
+	(label "PO_7"
+		(at 46.99 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a61b4f1-15c9-4afe-a6fe-c67c6fe05301")
+	)
+	(label "I2C_3V3_SCL"
+		(at 10.16 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e0e98e1-33e3-4ed9-8438-6382b7731a1b")
+	)
+	(label "PO_11"
+		(at 46.99 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39b5fef9-ccbf-4941-ba84-cea7ff9489a1")
+	)
+	(label "PO_9"
+		(at 46.99 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44c17da4-23de-450f-8c69-cfde59363e01")
+	)
+	(label "PO_0"
+		(at 46.99 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a15db3c-bb1f-40db-9274-2c7ff5be716a")
+	)
+	(label "PO_3"
+		(at 46.99 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4be05355-f705-49b2-acf6-370d3f449646")
+	)
+	(label "PO_4"
+		(at 46.99 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54391385-62df-43c2-a996-3079e172bc96")
+	)
 	(label "I2C_5V_SDA"
 		(at 107.95 87.63 180)
 		(fields_autoplaced yes)
@@ -2046,6 +3354,61 @@
 		)
 		(uuid "628c3512-3687-4de1-98cc-f1a49b1c8286")
 	)
+	(label "IO_INT0"
+		(at 10.16 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b619134-2d64-4dd1-8e12-fcf74b367eb6")
+	)
+	(label "{PO[15:0]}"
+		(at 59.69 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ca41501-acd2-48b7-8206-5e203024717b")
+	)
+	(label "PO_5"
+		(at 46.99 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7116d134-a705-4c5e-a9f3-6b231a917f6d")
+	)
+	(label "IO_INT1"
+		(at 10.16 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76e10a1c-547e-4fa0-bfe7-6648763c2050")
+	)
+	(label "PO_13"
+		(at 46.99 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80dced67-b08c-4159-a3d9-16bbf0048f99")
+	)
 	(label "3V3_IN"
 		(at 49.53 20.32 0)
 		(fields_autoplaced yes)
@@ -2056,6 +3419,17 @@
 			(justify left bottom)
 		)
 		(uuid "83606751-8197-447f-a537-ccdcd86370dc")
+	)
+	(label "PO_1"
+		(at 46.99 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "840fb048-6948-4f26-86f4-385210326a32")
 	)
 	(label "I2C_5V_SCL"
 		(at 107.95 90.17 180)
@@ -2078,6 +3452,115 @@
 			(justify left bottom)
 		)
 		(uuid "b0bfb95f-8771-4869-8fbf-e38c8fa1dc10")
+	)
+	(label "I2C_3V3_SDA"
+		(at 10.16 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb07191a-728a-4ffb-a586-38c08f8a3bcc")
+	)
+	(label "PO_15"
+		(at 46.99 189.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c523fdb2-6786-4040-beca-6cab02fe5373")
+	)
+	(label "PO_6"
+		(at 46.99 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf0d6960-1480-4679-9791-c4ebc4ac0a74")
+	)
+	(label "PO_12"
+		(at 46.99 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d57329e2-7c54-4c67-8772-5e33de550f9f")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at -19.05 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "022429e7-f2c5-438b-a43c-d641e36d8317")
+		(property "Reference" "#PWR023"
+			(at -19.05 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at -19.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -19.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -19.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at -19.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b6651c-3c68-4dc8-a124-f7c8810dd5b9")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
@@ -2221,6 +3704,201 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at -8.89 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f5b05e4-dfc8-4531-8c55-61d6781cde67")
+		(property "Reference" "#PWR025"
+			(at -8.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -8.89 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -8.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -8.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -8.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1afdd38a-2e0d-41ee-8d1c-dbb879da38dd")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -19.05 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "133b3d1f-3619-4736-94db-3913be71776e")
+		(property "Reference" "#PWR024"
+			(at -19.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -19.05 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -19.05 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -19.05 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -19.05 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a10701d5-dd40-450f-ac42-48bc2ec0bf38")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 1.27 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18cae02f-e493-4d5b-8529-2b897f659d1c")
+		(property "Reference" "#PWR026"
+			(at 1.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1.27 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 1.27 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9758cdc-97c4-4c3e-9285-7f888f92a28a")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 43.18 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2280,6 +3958,79 @@
 			(project "astromech_main_board"
 				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at -19.05 125.73 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "344c7b3b-65a0-4971-a17c-841dcaaf9f13")
+		(property "Reference" "JP1"
+			(at -14.732 122.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at -5.842 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -19.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -19.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at -19.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8e0a054-cb44-4cc1-8cd8-9ec89aa8c2b9")
+		)
+		(pin "1"
+			(uuid "83344fa0-f165-40ee-9321-1e8efdff0c69")
+		)
+		(pin "3"
+			(uuid "065c8b60-a965-4530-a0d7-517b84ee19ea")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -2353,6 +4104,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 1.27 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36bb3ee9-dd4e-4d52-a4e0-056ec60e990d")
+		(property "Reference" "#PWR032"
+			(at 1.27 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 1.27 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 1.27 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e7a6500-399e-4908-84a2-1323e2217729")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 87.63 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2419,6 +4235,210 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 34.29 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c674b39-8fc3-4cf5-bbc6-904245b3a154")
+		(property "Reference" "#PWR019"
+			(at 34.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b505133-d2eb-4a55-ad4e-dff27e73ce02")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -19.05 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f1d1095-f1b9-4708-9226-19edb491dc4e")
+		(property "Reference" "#PWR028"
+			(at -19.05 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -19.05 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -19.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -19.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -19.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "122264f6-546d-49a3-9345-a9b1fafb0475")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 1.27 125.73 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "420c6f13-9298-4358-b5e8-0e5824149b1f")
+		(property "Reference" "JP13"
+			(at 7.366 122.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 14.732 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 1.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91079575-9ec8-4d5a-b86e-59a323e39865")
+		)
+		(pin "1"
+			(uuid "0e7391c2-42ea-441c-9d8d-4b4c90c91cdd")
+		)
+		(pin "3"
+			(uuid "74d189f0-5295-4a1a-862d-78e742f46a3d")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 43.18 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2478,6 +4498,117 @@
 			(project ""
 				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:TCA9554DW")
+		(at 34.29 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a15ee6f-31ea-4a79-802d-a90b151af5de")
+		(property "Reference" "U6"
+			(at 26.416 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA9554DW"
+			(at 34.544 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 58.42 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9554.pdf"
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 Bit Port/Expander, I2C SMBUS, Interrupt output, SOIC-16"
+			(at 34.29 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "cef9f5cf-dd39-413c-ac41-725e2bd2ed82")
+		)
+		(pin "15"
+			(uuid "a75327bd-702d-49f0-b389-71a12fb68be9")
+		)
+		(pin "11"
+			(uuid "8ca45e16-8b28-4aff-8558-f84356b7406f")
+		)
+		(pin "3"
+			(uuid "c5d7ae2c-2b3d-48c7-8916-af295128df64")
+		)
+		(pin "1"
+			(uuid "4fd5397a-37d0-4e66-8c11-88ca0e2f74c8")
+		)
+		(pin "4"
+			(uuid "54122252-03f5-4280-8c9d-197417660578")
+		)
+		(pin "16"
+			(uuid "c190353b-0f0d-463e-a9fb-84b7b9564802")
+		)
+		(pin "8"
+			(uuid "e9bd0784-a702-4631-a2db-2ddcb2cfccaf")
+		)
+		(pin "12"
+			(uuid "148f09df-873a-4331-8b7a-4f16f0c4c886")
+		)
+		(pin "13"
+			(uuid "b0b2334d-be96-4c6d-af82-cb202a48bec5")
+		)
+		(pin "9"
+			(uuid "a4ba9ace-2927-41e4-85de-eb8ef708420f")
+		)
+		(pin "6"
+			(uuid "cbb66996-e658-4eb1-bf4d-a165db231f23")
+		)
+		(pin "14"
+			(uuid "e42d7388-1882-417a-956b-b2867bf467cb")
+		)
+		(pin "10"
+			(uuid "2289aed3-52f9-4179-bab0-75171bb12fde")
+		)
+		(pin "2"
+			(uuid "2524c60b-dead-408c-84fc-447496f7ce11")
+		)
+		(pin "5"
+			(uuid "d5b9e938-5d76-495e-ab0a-a3ba24be6522")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2885,6 +5016,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at -8.89 125.73 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "81258434-901d-4855-8b9d-22e60bd98e39")
+		(property "Reference" "JP10"
+			(at -3.556 122.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 4.572 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -8.89 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -8.89 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at -8.89 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67b69896-0572-4b29-a815-1172297a4d1f")
+		)
+		(pin "1"
+			(uuid "0ca6873d-d016-4e3b-9a33-4cf219e10ea8")
+		)
+		(pin "3"
+			(uuid "3a9764d3-0045-4e66-a618-82fc7a4cbc39")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at -19.05 172.72 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "83b36b25-6457-4c86-9ee6-464f94a02cd3")
+		(property "Reference" "JP3"
+			(at -14.732 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at -5.842 175.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -19.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -19.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at -19.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eca8a01c-427a-4188-b908-0fbc76fde455")
+		)
+		(pin "1"
+			(uuid "418c824f-93bf-42a5-a11f-4715dd149d9a")
+		)
+		(pin "3"
+			(uuid "fa5bf942-d222-4182-b87b-4f82a8ebd6f6")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 67.31 57.15 0)
 		(unit 1)
@@ -2951,6 +5228,313 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_Expansion:TCA9554DW")
+		(at 34.29 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89c65af6-981d-4b85-9782-c5dccaeaf1d4")
+		(property "Reference" "U5"
+			(at 26.416 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA9554DW"
+			(at 34.798 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9554.pdf"
+			(at 36.83 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 Bit Port/Expander, I2C SMBUS, Interrupt output, SOIC-16"
+			(at 34.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "46054032-aec9-47a7-8313-c1f9650675a9")
+		)
+		(pin "8"
+			(uuid "a3f75a71-e52d-4149-bb79-131c33fb83ce")
+		)
+		(pin "7"
+			(uuid "5f4a10c1-c4ad-4dc7-9d37-4ea0e86f38e6")
+		)
+		(pin "10"
+			(uuid "308e7b29-4117-4e17-b04c-663b7f1bdb5c")
+		)
+		(pin "14"
+			(uuid "7c9da47e-a241-430b-b9d4-1df205392ccd")
+		)
+		(pin "12"
+			(uuid "1ec7ae8a-fe8e-4994-bef5-f9f3714f5542")
+		)
+		(pin "13"
+			(uuid "5f03a839-514f-468f-8b02-581a827b525a")
+		)
+		(pin "15"
+			(uuid "1c9fe56b-9525-4482-9bda-60ba6654bae4")
+		)
+		(pin "5"
+			(uuid "0bb7106e-8895-4365-8cb9-ea6f40776381")
+		)
+		(pin "16"
+			(uuid "e3d589b1-8c97-4562-ba09-bde7a6333f8e")
+		)
+		(pin "3"
+			(uuid "952e28ea-4223-4a42-aeff-b159c14dbaa3")
+		)
+		(pin "9"
+			(uuid "3c4acaf6-ebc3-4e83-804d-51bf2aaad6ac")
+		)
+		(pin "1"
+			(uuid "9af94baf-04d4-4d9d-842b-1c11795b5fd4")
+		)
+		(pin "4"
+			(uuid "898b93aa-0776-43cc-935f-b0030b058909")
+		)
+		(pin "2"
+			(uuid "a1c39abf-725f-4ef5-9e2b-1cbc623c34d7")
+		)
+		(pin "6"
+			(uuid "295c33da-aea4-420e-816a-51ff6150e892")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 1.27 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dcdb4a1-f212-45e8-8906-d02b292dd87f")
+		(property "Reference" "#PWR022"
+			(at 1.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 1.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 1.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a2f3132-3d3d-4d47-b1c6-bd2a9ba149cd")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at -19.05 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9319ac40-ed1b-48a8-b542-450514bec75a")
+		(property "Reference" "#PWR027"
+			(at -19.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at -19.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -19.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -19.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at -19.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c425068-f559-43c5-b846-f83648165c6d")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "960af658-6612-49c9-bea9-9bfc90457640")
+		(property "Reference" "#PWR015"
+			(at 34.29 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a22d0b45-1c7e-4ee8-8027-20baf9b75103")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 105.41 20.32 0)
 		(unit 1)
@@ -3010,6 +5594,71 @@
 			(project "astromech_main_board"
 				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at -8.89 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99d2a2fc-3858-47ac-842e-f72e3ed6ea09")
+		(property "Reference" "#PWR029"
+			(at -8.89 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at -8.89 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -8.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -8.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at -8.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb74050c-dccc-4682-a552-a4ce354b64cc")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3215,6 +5864,71 @@
 			(project "astromech_main_board"
 				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
 					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 34.29 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a50cfbff-701c-4032-8a47-a54d04dcca1f")
+		(property "Reference" "#PWR033"
+			(at 34.29 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 34.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 34.29 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39989d4d-53e6-4a91-87f1-8e3d224fa7d9")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3504,6 +6218,209 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 1.27 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6ecaef1-0846-4da2-acfc-b9b874d65762")
+		(property "Reference" "#PWR031"
+			(at 1.27 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 1.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 1.27 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8403da8-b3d6-4dae-8426-83baa347a08c")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at -8.89 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7d05a92-fa26-432e-bb16-c978a37b9b34")
+		(property "Reference" "#PWR017"
+			(at -8.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at -8.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -8.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -8.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at -8.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19952389-fe1d-4774-b2d1-ff879fff85e3")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 1.27 172.72 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "be7d54d3-ebf0-4f87-a51c-548793b7a38f")
+		(property "Reference" "JP14"
+			(at 7.366 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 14.732 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 1.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 1.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d54c4a22-34b1-4697-978b-c1a721b52dc0")
+		)
+		(pin "1"
+			(uuid "76290c25-10a9-4104-8f0c-f74b4aab3413")
+		)
+		(pin "3"
+			(uuid "59d413d4-4976-4eb0-bbfb-4424be7effd2")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 43.18 78.74 0)
 		(unit 1)
@@ -3634,6 +6551,79 @@
 			(project ""
 				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at -8.89 172.72 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e65a5916-b954-40c6-8896-b2bb08b5f4c0")
+		(property "Reference" "JP12"
+			(at -3.556 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 4.572 175.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -8.89 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -8.89 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at -8.89 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d20a6d50-5488-46aa-ba1e-0519854d2e8f")
+		)
+		(pin "1"
+			(uuid "dfcadb32-84e9-4d4c-83b5-a6e85cd39933")
+		)
+		(pin "3"
+			(uuid "1aae3a51-290a-4789-8e05-f2b219ec932d")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -3914,6 +6904,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at -8.89 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f17fa34e-46a4-410d-9424-4bac6747ec3a")
+		(property "Reference" "#PWR030"
+			(at -8.89 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -8.89 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -8.89 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -8.89 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -8.89 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c94b386-1368-4ef2-907c-01017fd4cc97")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 67.31 24.13 0)
 		(mirror y)
@@ -3978,6 +7033,71 @@
 			(project ""
 				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 34.29 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f918cc4c-2f2c-49bb-9445-e80558409276")
+		(property "Reference" "#PWR013"
+			(at 34.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 34.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5a19f14-5bd4-4d11-ba4b-bc11bee146fc")
+		)
+		(instances
+			(project "astromech_main_board"
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4055,44 +7175,6 @@
 			(project "astromech_main_board"
 				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 115.57 128.27)
-		(size 39.37 35.56)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6ad7c4a2-df2b-4efe-987c-b41c89a114c2")
-		(property "Sheetname" "io_expander"
-			(at 115.57 127.5584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "io_expander.kicad_sch"
-			(at 115.57 164.4146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "astromech_main_board"
-				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
-					(page "5")
 				)
 			)
 		)

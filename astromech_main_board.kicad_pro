@@ -630,24 +630,8 @@
       "Root"
     ],
     [
-      "dcd705a8-d3f6-4ba0-a933-c0adcd8c1729",
-      "ESP32"
-    ],
-    [
-      "179c8d1a-ee18-4913-a220-ee7b41201961",
-      "io_protection"
-    ],
-    [
-      "0fc5068a-7439-495a-a909-443011c0fe39",
-      "hw_encoder"
-    ],
-    [
-      "c167004c-4677-489d-9ebe-665c1203893c",
-      "Level Converter1"
-    ],
-    [
-      "4e0f5003-37ea-49e6-aede-ed2092ec240b",
-      "Level Converter"
+      "6d3a9f63-ff9a-41f2-91ed-d5f5cec1613c",
+      "MCU"
     ]
   ],
   "text_variables": {}

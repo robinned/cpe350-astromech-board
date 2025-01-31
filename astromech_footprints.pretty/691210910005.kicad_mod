@@ -1,0 +1,225 @@
+(footprint "691210910005"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WR-TBL Serie 2109 - 2.54 mm Horiz. Entry<br></b>Max Height =8.5mm , Pitch 2.54mm , 5 Pins")
+	(property "Reference" "REF**"
+		(at 0 -4.635 0)
+		(layer "F.SilkS")
+		(uuid "bf9d1d18-a24c-4742-840a-308dfd6e30cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691210910005"
+		(at 4.12 4.865 0)
+		(layer "F.Fab")
+		(uuid "baf1a706-fe37-4019-a404-cce41beb513f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "beaaa464-892c-43c6-bbcb-f473aac4d525")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b7dc48a-c0fd-49ff-a685-b5822be4e147")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "249a6fcb-3e73-4e4a-990a-49d79079bdfc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.65 -3.35)
+		(end 6.65 -3.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c44c99f-4619-4a63-896a-4caa532d1b34")
+	)
+	(fp_line
+		(start -6.65 3.35)
+		(end -6.65 -3.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c8865eb-5dec-4f9c-aba9-1186aa3507d1")
+	)
+	(fp_line
+		(start 6.65 -3.35)
+		(end 6.65 3.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06038739-3ff7-43e7-89e7-a89e87d425ec")
+	)
+	(fp_line
+		(start 6.65 3.35)
+		(end -6.65 3.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e921a28d-435b-4e98-b351-aea48ae2cef3")
+	)
+	(fp_circle
+		(center -6.01 -1.7)
+		(end -5.91 -1.7)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a70b0b02-f025-4bc6-b062-bf40531eed36")
+	)
+	(fp_poly
+		(pts
+			(xy -6.85 -3.55) (xy 6.85 -3.55) (xy 6.85 3.55) (xy -6.85 3.55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "f2c114af-24ff-45a3-9fe6-19acd4355a44")
+	)
+	(fp_line
+		(start -6.55 -3.25)
+		(end -6.55 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ea8d0e8-b6b6-4625-bc1d-21c064f11eb7")
+	)
+	(fp_line
+		(start -6.55 3.25)
+		(end 6.55 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c698d5a-d219-450e-b7f3-b6d2f266d6ab")
+	)
+	(fp_line
+		(start 6.55 -3.25)
+		(end -6.55 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfd71bbb-a6b5-4775-a53b-da4c813329f0")
+	)
+	(fp_line
+		(start 6.55 3.25)
+		(end 6.55 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a91c8bcf-ebc5-4960-b29b-814c76275c8c")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "59e4adc9-3f92-48e4-b7d1-c69fe44b6b2a")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "57b7cb7d-0f47-4807-a6b4-82f487c46e07")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bb5a1ecf-f672-4ed9-8fe5-570a18072b96")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "51859fc1-9858-4e43-9b5d-fbde27e527e6")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bd308ced-6419-459e-b94c-bfa7380fff68")
+	)
+	(model "${KIPRJMOD}/3d/691210910005.step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

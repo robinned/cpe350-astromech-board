@@ -1377,7 +1377,7 @@
 			(uuid "f107c9e0-89c3-4933-9bf4-c847080f5574")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "660377c1-96e9-4707-a59d-945ee167fa3d")
 			(effects
@@ -4164,7 +4164,7 @@
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "U4"
-			(at 0 -4.5 360)
+			(at 0 -4.5 0)
 			(layer "F.SilkS")
 			(uuid "7e3785e9-9289-40aa-8a4c-8709bec594b3")
 			(effects
@@ -4175,7 +4175,7 @@
 			)
 		)
 		(property "Value" "NCP1117-5.0_TO252"
-			(at 0 4.5 360)
+			(at 0 4.5 0)
 			(layer "F.Fab")
 			(uuid "1f65af2f-22fb-4287-9c37-ee83951a97b7")
 			(effects
@@ -4186,7 +4186,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b2b0fae8-7f18-44da-9d42-7b779723b141")
@@ -4198,7 +4198,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd19aa5e-c5a8-4685-b67c-c3dc5904084f")
@@ -4210,7 +4210,7 @@
 			)
 		)
 		(property "Description" "1A Low drop-out regulator, Fixed Output 5.0V, TO-252 (DPAK)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8c8708bf-c5e1-4440-8687-c304d80c4a0e")
@@ -4459,7 +4459,7 @@
 			(uuid "871c3042-f94b-4bbb-9f2b-43d773016a2f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0cff5f3d-621c-4f8b-8391-ad34c1e27653")
 			(effects
@@ -11832,7 +11832,7 @@
 		(descr "Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x07 2.54mm single row")
 		(property "Reference" "J7"
-			(at 0 -2.77 360)
+			(at 0 -2.77 0)
 			(layer "F.SilkS")
 			(uuid "3670ae8a-9bdc-4978-bee3-e5f8bce6e69a")
 			(effects
@@ -11843,7 +11843,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07"
-			(at 0 18.01 360)
+			(at 0 18.01 0)
 			(layer "F.Fab")
 			(uuid "44a7fa92-44d1-4aa0-afdc-fe3374914529")
 			(effects

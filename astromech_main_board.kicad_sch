@@ -14531,6 +14531,17 @@
 		)
 		(uuid "5c0bb6a0-9375-4500-aaad-7289410d4c16")
 	)
+	(label "IO42"
+		(at 165.1 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e812acb-11d4-4de7-8dc3-e6556537b2a8")
+	)
 	(label "I2C_3V3_SDA"
 		(at 82.55 88.9 180)
 		(fields_autoplaced yes)
@@ -15267,17 +15278,6 @@
 			(justify right bottom)
 		)
 		(uuid "c83568d6-8c31-450b-9921-a1c6292ae9ce")
-	)
-	(label "IO40"
-		(at 165.1 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c95bdc0f-4e96-4b60-9542-53d4835a0d92")
 	)
 	(label "HEAD_B"
 		(at 214.63 85.09 0)

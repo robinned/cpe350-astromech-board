@@ -14512,6 +14512,17 @@
 		)
 		(uuid "3f075ee6-6686-4bf2-b443-a965533c37b8")
 	)
+	(label "I2C_3V3_SCL"
+		(at 77.47 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43428553-d4f2-43c6-9f7b-5f552d5ad4b1")
+	)
 	(label "HEAD_A"
 		(at 214.63 82.55 0)
 		(fields_autoplaced yes)
@@ -14897,17 +14908,6 @@
 		)
 		(uuid "83606751-8197-447f-a537-ccdcd86370dc")
 	)
-	(label "I2C_3V3_SCL"
-		(at 77.47 245.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88a18d55-2963-47af-958e-c65f1a2c7752")
-	)
 	(label "IO13"
 		(at 22.86 237.49 0)
 		(fields_autoplaced yes)
@@ -15050,17 +15050,6 @@
 			(justify right bottom)
 		)
 		(uuid "9ab7462f-5d0f-4a5a-a26a-712501fb016d")
-	)
-	(label "I2C_3V3_SDA"
-		(at 77.47 241.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b69e698-2c35-4399-9a41-59384795954a")
 	)
 	(label "LEFT_A"
 		(at 214.63 233.68 180)
@@ -15523,6 +15512,17 @@
 			(justify right bottom)
 		)
 		(uuid "ed36ccd6-4f8c-4896-8931-b74e898c9a3b")
+	)
+	(label "I2C_3V3_SDA"
+		(at 77.47 245.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0569109-507d-48f5-bc53-b82f1bc74490")
 	)
 	(label "IORX"
 		(at 210.82 212.09 180)

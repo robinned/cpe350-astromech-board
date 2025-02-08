@@ -122,7 +122,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill none)
 		(layer "F.CrtYd")
 		(uuid "e7f72eb3-6ac9-4cb5-852c-71cd6022bb75")
 	)

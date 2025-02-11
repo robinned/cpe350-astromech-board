@@ -16095,13 +16095,12 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at -77.4637 100.33 90)
+		(property "Value" "20pF"
+			(at -76.708 107.442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -16597,13 +16596,12 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at -77.4637 87.63 90)
+		(property "Value" "20pF"
+			(at -81.026 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -19095,13 +19093,12 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "12pF"
 			(at 195.5863 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -21294,13 +21291,12 @@
 				)
 			)
 		)
-		(property "Value" "??A"
+		(property "Value" "1A"
 			(at 48.26 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
@@ -24078,14 +24074,13 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
-			(at -68.58 99.0599 90)
+		(property "Value" "1.8432MHz"
+			(at -71.882 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
@@ -24147,13 +24142,12 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 195.5863 86.36 90)
+		(property "Value" "12pF"
+			(at 196.342 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -26583,13 +26577,12 @@
 				)
 			)
 		)
-		(property "Value" "??A"
+		(property "Value" "1A"
 			(at 48.26 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"

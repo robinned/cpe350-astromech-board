@@ -489,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "astromech_main_board.step",
       "svg": "",
       "vrml": ""
     },

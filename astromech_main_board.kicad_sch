@@ -3907,6 +3907,150 @@
 				)
 			)
 		)
+		(symbol "Diode:MBR1020VL"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MBR1020VL"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123F"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "forward voltage diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123F*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MBR1020VL_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBR1020VL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0) hide)
@@ -9497,6 +9641,10 @@
 		(uuid "11c98e18-a849-4474-9116-0dd86b0c02c0")
 	)
 	(no_connect
+		(at 62.23 184.15)
+		(uuid "1514915a-31d3-4e06-9d3e-9124eef0b84c")
+	)
+	(no_connect
 		(at 90.17 218.44)
 		(uuid "1b6ba1ef-97a8-41ac-a1b6-e2821b9861ab")
 	)
@@ -9609,6 +9757,10 @@
 		(uuid "abd03d97-469f-44a3-8372-8cb419a0716e")
 	)
 	(no_connect
+		(at 62.23 181.61)
+		(uuid "acd78a13-efe3-4db3-bdee-8baddd027579")
+	)
+	(no_connect
 		(at 111.76 74.93)
 		(uuid "bae3fb0e-8c43-4f06-a01e-efa3e449d148")
 	)
@@ -9619,6 +9771,10 @@
 	(no_connect
 		(at -66.04 107.95)
 		(uuid "c96268d8-e973-4b54-a0b6-126458d8dc1e")
+	)
+	(no_connect
+		(at 62.23 186.69)
+		(uuid "c9b1b443-3142-4e54-af51-b76007b3514f")
 	)
 	(no_connect
 		(at -31.75 105.41)
@@ -9793,6 +9949,16 @@
 			(type default)
 		)
 		(uuid "097130a2-f404-4ce2-ac31-c2fc7c39d7ba")
+	)
+	(wire
+		(pts
+			(xy 46.99 294.64) (xy 59.69 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b4c01f-ad0a-41fb-81b9-2950aec8bd76")
 	)
 	(polyline
 		(pts
@@ -10733,6 +10899,26 @@
 			(type default)
 		)
 		(uuid "3d8c62b0-3926-4b14-9653-48f0d6941171")
+	)
+	(wire
+		(pts
+			(xy 81.28 290.83) (xy 90.17 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8099ec-fd40-4a0f-ad95-c1e4a5b9b29a")
+	)
+	(wire
+		(pts
+			(xy 67.31 294.64) (xy 81.28 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff7a64f-d516-44d0-a87c-e014116b8855")
 	)
 	(wire
 		(pts
@@ -12386,7 +12572,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 285.75) (xy 46.99 290.83)
+			(xy 46.99 285.75) (xy 46.99 294.64)
 		)
 		(stroke
 			(width 0)
@@ -12983,16 +13169,6 @@
 			(type default)
 		)
 		(uuid "dbfe3b73-7b02-4389-aecc-47eae71849a4")
-	)
-	(wire
-		(pts
-			(xy 46.99 290.83) (xy 90.17 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc9e079c-279e-4090-8bf5-2fd5a5ca77e3")
 	)
 	(wire
 		(pts
@@ -13593,6 +13769,16 @@
 			(type default)
 		)
 		(uuid "fcabc50f-b1eb-4c7b-a6e6-3432279e32a4")
+	)
+	(wire
+		(pts
+			(xy 81.28 294.64) (xy 81.28 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb510d6-d1f9-4013-be32-92c2bacf7766")
 	)
 	(wire
 		(pts
@@ -21018,6 +21204,74 @@
 			(project "astromech_main_board"
 				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR1020VL")
+		(at 63.5 294.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a1087a6-449d-41a4-aa3a-602ac8873709")
+		(property "Reference" "D1"
+			(at 63.8175 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR1020VL"
+			(at 63.8175 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 63.5 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF"
+			(at 63.5 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
+			(at 63.5 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a7ff600-6a83-489c-aa72-f2c083429a06")
+		)
+		(pin "2"
+			(uuid "797731a9-8edc-442a-a326-2a8be3db531e")
+		)
+		(instances
+			(project ""
+				(path "/3ed70c37-1dc6-4761-9813-fca49ce12494"
+					(reference "D1")
 					(unit 1)
 				)
 			)
